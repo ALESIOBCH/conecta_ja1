@@ -1,0 +1,38 @@
+{
+  "providers": [
+    {
+      "id": "meganet",
+      "name": "Meganet Telecom",
+      "cities": ["Tenente Portela","Três Passos","Vista Gaúcha"],
+      "cep_prefixes": ["98500","98600","98595"],
+      "exclusive_cities": ["Tenente Portela"],
+      "contacts": {
+        "whats": "+5555991234567",
+        "email": "vendas@meganet.com.br",
+        "phone": "+55 55 3512-0000",
+        "site": "https://meganet.example.com"
+      },
+      "plans": [
+        {"name":"Fibra 300 Mega","price":"R$ 79,90"},
+        {"name":"Fibra 500 Mega","price":"R$ 99,90"}
+      ]
+    },
+    {
+      "id": "rsnet",
+      "name": "RS Net Fibra",
+      "cities": ["Três Passos","Humaitá","Crissiumal"],
+      "cep_prefixes": ["98600","98550","98640"],
+      "exclusive_cities": [],
+      "contacts": {
+        "whats": "+5555987654321",
+        "email": "comercial@rsnet.com.br",
+        "phone": "+55 55 3522-1111",
+        "site": "https://rsnet.example.com"
+      },
+      "plans": [
+        {"name":"Fibra 200 Mega","price":"R$ 69,90"},
+        {"name":"Fibra 400 Mega","price":"R$ 89,90"}
+      ]
+    }
+  ]
+}

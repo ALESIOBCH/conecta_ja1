@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConectaJá • Admin</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="theme">
+  <header class="nav">
+    <div class="container wrap">
+      <a class="logo" href="index.html"><span class="dot"></span>ConectaJá</a>
+      <nav class="nav-actions">
+        <a class="btn ghost" href="index.html">Voltar</a>
+        <button id="exportCsv" class="btn">Exportar CSV</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Leads capturados (local)</h2>
+      <p class="muted mini">Armazenamento local (localStorage) para demonstração — em produção, salvar em banco de dados.</p>
+      <div id="leadTable" class="table"></div>
+    </div>
+  </main>
+
+  <script src="../js/admin.js"></script>
+</body>
+</html>

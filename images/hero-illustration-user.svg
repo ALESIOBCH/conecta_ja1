@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="#0b1020"/>
+  <g opacity=".18">
+    <circle cx="100" cy="90" r="60" fill="url(#g1)"/>
+    <circle cx="730" cy="60" r="90" fill="url(#g1)"/>
+  </g>
+  <rect x="120" y="180" width="560" height="260" rx="16" fill="#0f172a" stroke="#334155"/>
+  <g fill="none" stroke="#475569" opacity="0.9">
+    <path d="M150 400 L230 280 L310 350 L380 240 L430 310 L480 270 L520 330 L570 240 L640 360" />
+  </g>
+  <text x="140" y="220" fill="#93c5fd" font-family="Inter, Arial" font-size="18">Mapa e rede</text>
+</svg>

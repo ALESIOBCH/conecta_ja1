@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ConectaJá • Encontre internet na sua cidade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <meta name="description" content="Digite sua cidade ou CEP e encontre o provedor parceiro mais próximo.">
+</head>
+<body class="theme">
+  <header class="nav">
+    <div class="container wrap">
+      <div class="logo"><span class="dot"></span>ConectaJá</div>
+      <nav class="nav-actions">
+        <a class="btn ghost" href="admin.html">Admin (leads)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-user">
+      <div class="container grid-hero">
+        <div>
+          <h1>Encontre internet <span class="grad">na sua cidade</span></h1>
+          <p class="lead">Digite sua <strong>cidade</strong> ou <strong>CEP</strong> e mostramos o provedor parceiro mais próximo.</p>
+          <form id="searchForm" class="search">
+            <input id="q" placeholder="Ex.: Tenente Portela • 98500-000" autofocus />
+            <button class="btn" type="submit">Buscar provedor</button>
+          </form>
+          <p class="mini muted">Exclusividade por cidade quando disponível.</p>
+        </div>
+        <div class="hero-art">
+          <img src="../images/hero-illustration-user.svg" alt="Mapa e rede">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="results" style="display:none">
+      <div class="container">
+        <h2>Provedores encontrados</h2>
+        <div id="cards" class="cards"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="container foot-wrap">
+      <div>© <span id="year"></span> ConectaJá</div>
+      <div class="mini">Dúvidas? <a href="mailto:contato@conectaja.app">contato@conectaja.app</a></div>
+    </div>
+  </footer>
+
+  <script src="../js/app.js"></script>
+</body>
+</html>
